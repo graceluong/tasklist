@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;*/
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fcfcfc;
+}
+
+#main h1{
+    color: #444;
+    text-align: center;
+    width: 60%;
+    height: 100%;
+    flex-direction: column;
+}
+#main {
+    padding: 0px;
+    box-sizing: border-box;
+    width: 60%;
+    height: 100%;
+}
+
+#check {
+    text-align: right;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    float: right;
+}
+
+#taskTitle{
+    display:inline-block;
+}
+
+#remove {
+    margin-top: 6%;
+    float: right;
+    display:inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+#row{
+    width: 100%;
+    height: 80%;
+}
+
+.task{
+    width: 90%;
+    float: left;
+}
+
+.todo-list li{
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.08);
+}
+
+#todo-list li:hover {
+
+}
+
+.none-selected p {
+    color: #fff;
+    font-family: 'Century Gothic';
+    font-size: 50px;
+}
+li {
+    list-style-type: none;
+}
+
+hr {
+    border-color: white;
+}
+
+form {
+    padding: 5px;
+    margin: inherit;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.08);
+    /*width: 80%;
+    margin-left:40px;*/
+}
+
+.field {
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 1fr;
+
+}
+
+#todo-details {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    color: #fff;
+    background: #b5d0f3;
+    padding: 30px;
+    overflow: auto;
+}
+
+#add {
+    color: #fff;
+    border: 0;
+    padding: 0 10px;
+    border-radius: 5px;
+    background: #b5d0f3;
+    cursor: pointer;
+    font-size: 12pt;
+    height: 30px;
+    width: 100px;
+    margin: 0 0 0 1%;
+}
+
+#add-task {
+    background-color : #b5d0f3 !important;
+    border-color: #fff !important;
+    color: #fff !important;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
